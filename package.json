@@ -1,0 +1,25 @@
+{
+  "name": "weighted-random-file",
+  "version": "0.0.1",
+  "description": "Pick a weighted random file from an array of files, based on the files' length.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misund/weighted-random-file.git"
+  },
+  "author": "Just Thomas Hiorth Misund",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/misund/weighted-random-file/issues"
+  },
+  "homepage": "https://github.com/misund/weighted-random-file#readme",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
