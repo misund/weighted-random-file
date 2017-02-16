@@ -1,4 +1,5 @@
 import trailingSlashIt from 'trailing-slash-it';
+import weightedRandomObject from 'weighted-random-object';
 
 /**
  * Pick a weighted random file, based on it's length.
