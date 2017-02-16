@@ -1,6 +1,6 @@
 {
   "name": "weighted-random-file",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pick a weighted random file from an array of files, based on the files' length.",
   "main": "build/index.js",
   "scripts": {
