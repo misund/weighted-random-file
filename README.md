@@ -7,10 +7,12 @@
  Returns a Promise, so it's thenable.
 
 ## Install
-`$ npm install --save weighted-random-file`
+```
+$ npm install --save weighted-random-file
+```
 
 ## Usage
-```
+```js
 var weightedRandomFile = require("weighted-random-file");
 
 weightedRandomFile(['one.txt', 'two.txt', 'three.txt'], __dirname); // "two.txt"
