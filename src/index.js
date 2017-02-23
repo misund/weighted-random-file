@@ -1,3 +1,4 @@
+import fs from 'fs';
 import trailingSlashIt from 'trailing-slash-it';
 import weightedRandomObject from 'weighted-random-object';
 
@@ -31,7 +32,9 @@ const weightedRandomFile = (
 
   return Promise.resolve(
     weightedRandomObject(
-      relativePaths.map(getWeightedFileObject)
-    ).path
+      relativePaths.map(getWeightedFileObject),
+    ).path,
   );
 };
+
+export default weightedRandomFile;
