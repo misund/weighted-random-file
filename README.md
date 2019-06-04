@@ -25,3 +25,17 @@ weightedRandomFile(['one.txt', 'two.txt', 'three.txt'], '/path/to/files'); // "t
 
 ## Returns
 A Promise of a string containing a relative path.
+
+## Contributing
+I appreciate your issues and PRs [on Github](https://github.com/misund/weighted-random-file)!
+
+### Testing
+```
+yarn build && yarn test
+```
+
+### Releasing
+This project uses [np](https://github.com/sindresorhus/np).
+1. Make sure your changes are in master
+2. Run `yarn release`
+3. Follow the interactive release guide

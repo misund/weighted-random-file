@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel src -d build",
     "prepublish": "npm run build",
+    "release": "np",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,7 +27,8 @@
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.0"
+    "eslint-plugin-react": "6.10.0",
+    "np": "5.0.2"
   },
   "dependencies": {
     "trailing-slash-it": "0.3.0",
