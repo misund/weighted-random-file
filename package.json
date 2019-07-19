@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "trailing-slash-it": "0.3.0",
-    "weighted-random-object": "1.0.6"
+    "weighted-random-object": "1.0.8"
   }
 }
