@@ -28,7 +28,7 @@
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.10.3",
-    "np": "5.0.2"
+    "np": "7.1.0"
   },
   "dependencies": {
     "trailing-slash-it": "0.3.0",
